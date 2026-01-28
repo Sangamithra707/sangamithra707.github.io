@@ -1,0 +1,82 @@
+[
+  {
+    "id": "Folder1",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "modelUrl": "assets/models/Folder1/model.glb",
+    "thumbnail": "assets/models/Folder1/thumbnail.jpg",
+    "images": [
+      "assets/models/Folder1/serum10.jpg",
+      "assets/models/Folder1/serum11.jpg",
+      "assets/models/Folder1/serum7.jpg"
+    ]
+  },
+  {
+    "id": "Folder2",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "modelUrl": "assets/models/Folder2/model.glb",
+    "thumbnail": "assets/models/Folder2/thumbnail.jpg",
+    "images": [
+      "assets/models/Folder2/cosmetics.png",
+      "assets/models/Folder2/cosmetics1.png",
+      "assets/models/Folder2/cosmetics2.png",
+      "assets/models/Folder2/cosmetics3.png",
+      "assets/models/Folder2/thumbnail.png"
+    ]
+  },
+  {
+    "id": "Model3",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "modelUrl": "assets/models/Model3/model.glb",
+    "thumbnail": "assets/models/Model3/thumbnail.jpg",
+    "images": [
+      "assets/models/Model3/cosmetics22.png",
+      "assets/models/Model3/cosmetics23.png",
+      "assets/models/Model3/thumbnail.png"
+    ]
+  },
+  {
+    "id": "sample-kiosk",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "modelUrl": "assets/models/sample-kiosk/model.glb",
+    "thumbnail": "assets/models/sample-kiosk/thumbnail.jpg",
+    "images": [
+      "assets/models/sample-kiosk/extra1.jpg"
+    ]
+  }
+]
