@@ -1,9 +1,15 @@
 {
-    "title": "Model Title",
+    "title": "Cosmetic Cream Jar with Screw Lid Realistic Glass Container ",
     "category": "Props",
     "polyCount": "10k",
+    "vertices": "10k",
     "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": ["GLB", "FBX"],
-    "marketplaceLink": "https://www.cgtrader.com/"
+    "description": "High-quality realistic cosmetic cream jar 3D model designed for product visualization, branding mockups, and e-commerce renders. The model features accurate proportions, clean topology, and realistic materials suitable for close-up renders. It includes detailed screw threads, subtle edge bevels, and a clean label area, making it ideal for skincare, beauty, and cosmetic product presentations. All materials are neutral and ready for customization, allowing easy re-branding for creams, balms, gels, or masks. Optimized for both still renders and animations, this asset works well in marketing visuals, packaging design previews, and motion graphics.",
+    "formats": [
+        "GLB",
+        "FBX",
+        "OBJ",
+        "Blend"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/cosmetic-cream-jar-with-screw-lid-realistic-glass-container"
 }

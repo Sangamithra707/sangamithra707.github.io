@@ -1,0 +1,9 @@
+{
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": ["GLB", "FBX"],
+    "marketplaceLink": "https://www.cgtrader.com/"
+}

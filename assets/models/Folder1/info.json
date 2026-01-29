@@ -1,9 +1,15 @@
 {
-    "title": "Model Title",
+    "title": "Cosmetic Serum Glass Dropper Bottle Realistic Model",
     "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": ["GLB", "FBX"],
-    "marketplaceLink": "https://www.cgtrader.com/"
+    "polyCount": "17916",
+    "vertices": "17916",
+    "textureSize": "2k",
+    "description": "High-quality, realistic cosmetic serum dropper bottle 3D model designed for professional product visualization, cosmetic branding, packaging mockups, and advertising renders. The model is based on real-world cosmetic packaging references and features accurate proportions, realistic glass thickness, and clean construction. All main components are modeled as separate objects, making the asset easy to customize, texture, or animate. Geometry is optimized for rendering while preserving fine details, suitable for both close-up product shots and full cosmetic scene setups.",
+    "formats": [
+        "GLB",
+        "FBX",
+        "OBJ",
+        "Blend"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/cosmetic-serum-glass-dropper-bottle-realistic-model"
 }

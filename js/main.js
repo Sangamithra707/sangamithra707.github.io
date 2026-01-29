@@ -1,4 +1,4 @@
-import { Viewer } from './viewer.js';
+
 
 // Grid Renderer
 const viewerRegistry = {};
@@ -47,12 +47,12 @@ function renderGrid(data) {
 
     gridContainer.innerHTML = data.map(model => `
         <article class="model-card">
-            <div class="card-viewer-container" id="viewer-${model.id}" data-model-id="${model.id}" data-model-url="${model.modelUrl}">
+            <div class="card-viewer-container" id="viewer-${model.id}" data-model-id="${model.id}">
                 <div class="card-viewer-placeholder skeleton">
                     <!-- Placeholder Icon -->
                     <i class="ph-duotone ph-cube" style="font-size: 48px; opacity: 0.5; z-index: 2; position: relative;"></i>
                     <!-- Optional: Real thumbnail if available -->
-                     ${model.thumbnail ? `<img src="${model.thumbnail}" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:1; opacity:0; transition:opacity 0.3s;" onload="this.style.opacity=1; this.parentElement.classList.remove('skeleton');" onerror="this.parentElement.classList.remove('skeleton');" alt="${model.title}">` : ''}
+                     ${model.thumbnail ? `<img src="${model.thumbnail}" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; z-index:3; opacity:0; transition:opacity 0.3s;" onload="this.style.opacity=1; this.previousElementSibling.style.opacity=0; this.parentElement.classList.remove('skeleton');" onerror="this.parentElement.classList.remove('skeleton');" alt="${model.title}">` : ''}
                 </div>
             </div>
             <div class="card-info">
@@ -68,34 +68,10 @@ function renderGrid(data) {
         </article>
     `).join('');
 
-    setupLazyLoad();
+    // setupLazyLoad(); // Disabled to prevent multiple WebGL contexts causing black screen/performance issues
 }
 
-function setupLazyLoad() {
-    const observer = new IntersectionObserver((entries) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                const container = entry.target;
-                const modelId = container.dataset.modelId;
 
-                // Avoid re-initializing
-                if (!viewerRegistry[modelId]) {
-                    const viewer = new Viewer(container.id);
-                    // Check if we have a valid model URL (and not just the default text)
-                    // For now, still load placeholder as default unless we have real 3D assets on disk
-                    viewer.loadPlaceholder();
-
-                    viewerRegistry[modelId] = viewer;
-                }
-
-                // Stop observing once loaded
-                observer.unobserve(container);
-            }
-        });
-    }, { threshold: 0.1, rootMargin: '50px' });
-
-    document.querySelectorAll('.card-viewer-container').forEach(el => observer.observe(el));
-}
 
 // Scroll Handler
 const scrollBtn = document.getElementById('scroll-to-grid');

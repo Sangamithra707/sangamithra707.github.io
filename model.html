@@ -4,20 +4,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Model Details | 3D Portfolio</title>
+    <title>Asset Details | Digital Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
-    <script type="importmap">
-        {
-            "imports": {
-                "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-                "three/addons/": "https://unpkg.com/three@0.160.0/examples/jsm/"
-            }
-        }
-    </script>
+
     <style>
         /* Detail Page Specific Styles */
         .detail-layout {
@@ -135,11 +128,9 @@
         <header class="header">
             <a href="index.html" class="logo">
                 <i class="ph-bold ph-cube"></i>
-                <span>ALEX RENDER</span>
+                <span>SANGAMITHRA M</span>
             </a>
             <nav class="nav-links">
-                <a href="#" class="nav-link">Work</a>
-                <a href="#" class="nav-link">About</a>
                 <a href="#" class="nav-link">Contact</a>
             </nav>
         </header>
@@ -149,19 +140,16 @@
         <main class="detail-layout" id="detail-app">
             <div class="left-column" style="display: flex; flex-direction: column; gap: 16px;">
                 <section class="viewer-stage" style="height: 500px;">
-                    <div id="main-viewer" style="width: 100%; height: 100%;"></div>
+
                     <img id="image-viewer"
-                        style="display: none; width: 100%; height: 100%; object-fit: contain; padding: 20px;">
+                        style="display: block; width: 100%; height: 100%; object-fit: contain; padding: 20px;">
                 </section>
 
                 <!-- Thumbnails Strip -->
                 <div id="thumbnails-strip"
                     style="display: flex; gap: 12px; height: 80px; overflow-x: auto; padding-bottom: 4px;">
                     <!-- 3D Toggle Button -->
-                    <div id="thumb-3d" class="thumb-item active"
-                        style="min-width: 80px; height: 100%; background: var(--bg-surface); border: 2px solid var(--accent-primary); border-radius: 8px; display: flex; align-items: center; justify-content: center; cursor: pointer;">
-                        <i class="ph-bold ph-cube" style="font-size: 32px; color: var(--accent-primary);"></i>
-                    </div>
+
                 </div>
             </div>
 
@@ -180,14 +168,10 @@
                         <span class="spec-label">Vertices</span>
                         <span class="spec-value">26.1k</span>
                     </div>
-                    <div class="spec-item">
-                        <span class="spec-label">Texture</span>
-                        <span class="spec-value">4K PBR</span>
-                    </div>
-                    <div class="spec-item">
+                    <!-- <div class="spec-item">
                         <span class="spec-label">Format</span>
                         <span class="spec-value">GLB, FBX</span>
-                    </div>
+                    </div> -->
                 </div>
 
                 <div class="description">
@@ -197,9 +181,7 @@
                 </div>
 
                 <div class="action-actions">
-                    <button class="btn btn-primary" style="justify-content: center; width: 100%;">
-                        <i class="ph-bold ph-download-simple" style="margin-right: 8px;"></i> Download Spec Sheet
-                    </button>
+
                     <button class="btn" id="marketplace-link"
                         style="border: 1px solid var(--border-subtle); color: var(--text-primary); justify-content: center;">
                         View on MarketPlace
@@ -210,7 +192,7 @@
     </div>
 
     <script type="module">
-        import { Viewer } from './js/viewer.js';
+
 
         const params = new URLSearchParams(window.location.search);
         const id = params.get('id');
@@ -230,7 +212,6 @@
 
                     // Update specs
                     const specs = document.querySelectorAll('.spec-value');
-                    if (specs[2]) specs[2].innerText = data.textureSize || 'N/A';
                     if (specs[3]) specs[3].innerText = (data.formats || []).join(', ');
 
                     // Update Link
@@ -239,33 +220,15 @@
                         linkBtn.onclick = () => window.open(data.marketplaceLink, '_blank');
                     }
 
-                    // Init Viewer
-                    const viewer = new Viewer('main-viewer');
-                    if (data.modelUrl) {
-                        viewer.loadModel(data.modelUrl);
-                    } else {
-                        viewer.loadPlaceholder();
-                    }
-                    viewer.controls.enableZoom = true;
 
                     // --- Gallery / Slider Logic ---
-                    const mainViewer = document.getElementById('main-viewer');
                     const imageViewer = document.getElementById('image-viewer');
-                    const start3D = document.getElementById('thumb-3d');
 
                     // Reset UI logic
                     const resetView = () => {
-                        mainViewer.style.display = 'none';
                         imageViewer.style.display = 'none';
                         document.querySelectorAll('.thumb-item').forEach(el => el.style.border = '2px solid transparent');
                     };
-
-                    // 3D Button Click
-                    start3D.addEventListener('click', () => {
-                        resetView();
-                        mainViewer.style.display = 'block';
-                        start3D.style.borderColor = 'var(--accent-primary)';
-                    });
 
                     if (data.images && data.images.length > 0) {
                         const strip = document.getElementById('thumbnails-strip');
@@ -291,6 +254,12 @@
                             });
                             strip.appendChild(thumb);
                         });
+
+                        // For testing: since 3D is disabled, auto-click the first image
+                        if (strip.children.length > 0) {
+                            const firstImageThumb = strip.children[0];
+                            if (firstImageThumb) firstImageThumb.click();
+                        }
                     }
                 } else {
                     document.querySelector('.detail-layout').innerHTML = "<h1>Model not found</h1>";

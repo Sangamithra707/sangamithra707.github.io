@@ -35,19 +35,35 @@ function generateIndex() {
 
                 // Find extra images
                 const files = fs.readdirSync(folderPath);
-                const extraImages = files.filter(file => {
+                const allImages = files.filter(file => {
                     const ext = path.extname(file).toLowerCase();
-                    return ['.jpg', '.jpeg', '.png', '.webp'].includes(ext) && file !== 'thumbnail.jpg';
-                }).map(file => `assets/models/${folder.name}/${file}`);
+                    return ['.jpg', '.jpeg', '.png', '.webp'].includes(ext);
+                });
+
+                // Logic to select main thumbnail
+                // 1. High Priority: Explicit 'thumbnail.*' (User request: "show the thumbnail named image")
+                let thumbFile = allImages.find(f => f.toLowerCase().startsWith('thumbnail.'));
+
+                // 2. Fallback: If no 'thumbnail.*', use the first available image
+                // (Matches: "if that folder has image file other than thumbnail load that images" -> as fallback)
+                if (!thumbFile && allImages.length > 0) {
+                    thumbFile = allImages[0];
+                }
+
+                // 3. Fallback (files.js/main.js should handle missing)
+                const thumbnailPath = thumbFile ? `assets/models/${folder.name}/${thumbFile}` : '';
+
+                // Include ALL images in the strip (including thumbnail.jpg if desired)
+                const extraImages = allImages.map(file => `assets/models/${folder.name}/${file}`);
 
                 // Add folder ID to the object (derived from folder name)
                 const modelEntry = {
                     id: folder.name,
                     ...info,
                     // Auto-detect paths if not specified
-                    modelUrl: `assets/models/${folder.name}/model.glb`,
-                    thumbnail: `assets/models/${folder.name}/thumbnail.jpg`,
-                    images: extraImages
+                    thumbnail: thumbnailPath,
+                    images: extraImages,
+                    vertices: info.vertices || ''
                 };
 
                 // Validate critical fields

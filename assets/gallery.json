@@ -1,48 +1,83 @@
 [
   {
     "id": "Folder1",
-    "title": "Model Title",
+    "title": "Cosmetic Serum Glass Dropper Bottle Realistic Model",
     "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
+    "polyCount": "17916",
+    "vertices": "17916",
+    "textureSize": "2k",
+    "description": "High-quality, realistic cosmetic serum dropper bottle 3D model designed for professional product visualization, cosmetic branding, packaging mockups, and advertising renders. The model is based on real-world cosmetic packaging references and features accurate proportions, realistic glass thickness, and clean construction. All main components are modeled as separate objects, making the asset easy to customize, texture, or animate. Geometry is optimized for rendering while preserving fine details, suitable for both close-up product shots and full cosmetic scene setups.",
     "formats": [
       "GLB",
-      "FBX"
+      "FBX",
+      "OBJ",
+      "Blend"
     ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "modelUrl": "assets/models/Folder1/model.glb",
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/cosmetic-serum-glass-dropper-bottle-realistic-model",
     "thumbnail": "assets/models/Folder1/thumbnail.jpg",
     "images": [
       "assets/models/Folder1/serum10.jpg",
       "assets/models/Folder1/serum11.jpg",
-      "assets/models/Folder1/serum7.jpg"
+      "assets/models/Folder1/serum7.jpg",
+      "assets/models/Folder1/thumbnail.jpg"
     ]
+  },
+  {
+    "id": "Folder10",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "thumbnail": "assets/models/Folder10/Pump.png",
+    "images": [
+      "assets/models/Folder10/Pump.png",
+      "assets/models/Folder10/Pump1.png",
+      "assets/models/Folder10/Pump10.png",
+      "assets/models/Folder10/Pump2.png",
+      "assets/models/Folder10/Pump3.png",
+      "assets/models/Folder10/Pump4.png",
+      "assets/models/Folder10/Pump5.png",
+      "assets/models/Folder10/Pump6.png",
+      "assets/models/Folder10/Pump7.png",
+      "assets/models/Folder10/Pump8.png",
+      "assets/models/Folder10/Pump9.png",
+      "assets/models/Folder10/Untitled.png"
+    ],
+    "vertices": ""
   },
   {
     "id": "Folder2",
-    "title": "Model Title",
+    "title": "Cosmetic Cream Jar with Screw Lid Realistic Glass Container ",
     "category": "Props",
     "polyCount": "10k",
+    "vertices": "10k",
     "textureSize": "4k",
-    "description": "A description of the model.",
+    "description": "High-quality realistic cosmetic cream jar 3D model designed for product visualization, branding mockups, and e-commerce renders. The model features accurate proportions, clean topology, and realistic materials suitable for close-up renders. It includes detailed screw threads, subtle edge bevels, and a clean label area, making it ideal for skincare, beauty, and cosmetic product presentations. All materials are neutral and ready for customization, allowing easy re-branding for creams, balms, gels, or masks. Optimized for both still renders and animations, this asset works well in marketing visuals, packaging design previews, and motion graphics.",
     "formats": [
       "GLB",
-      "FBX"
+      "FBX",
+      "OBJ",
+      "Blend"
     ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "modelUrl": "assets/models/Folder2/model.glb",
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/cosmetic-cream-jar-with-screw-lid-realistic-glass-container",
     "thumbnail": "assets/models/Folder2/thumbnail.jpg",
     "images": [
-      "assets/models/Folder2/cosmetics.png",
-      "assets/models/Folder2/cosmetics1.png",
-      "assets/models/Folder2/cosmetics2.png",
-      "assets/models/Folder2/cosmetics3.png",
-      "assets/models/Folder2/thumbnail.png"
+      "assets/models/Folder2/jar10.jpg",
+      "assets/models/Folder2/jar17.jpg",
+      "assets/models/Folder2/jar2.jpg",
+      "assets/models/Folder2/jar3.jpg",
+      "assets/models/Folder2/jar6.jpg",
+      "assets/models/Folder2/thumbnail.jpg"
     ]
   },
   {
-    "id": "Model3",
+    "id": "Folder3",
     "title": "Model Title",
     "category": "Props",
     "polyCount": "10k",
@@ -53,16 +88,21 @@
       "FBX"
     ],
     "marketplaceLink": "https://www.cgtrader.com/",
-    "modelUrl": "assets/models/Model3/model.glb",
-    "thumbnail": "assets/models/Model3/thumbnail.jpg",
+    "thumbnail": "assets/models/Folder3/dispenser1.png",
     "images": [
-      "assets/models/Model3/cosmetics22.png",
-      "assets/models/Model3/cosmetics23.png",
-      "assets/models/Model3/thumbnail.png"
-    ]
+      "assets/models/Folder3/dispenser1.png",
+      "assets/models/Folder3/dispenser11.png",
+      "assets/models/Folder3/dispenser13.png",
+      "assets/models/Folder3/dispenser15.png",
+      "assets/models/Folder3/dispenser16.png",
+      "assets/models/Folder3/dispenser3.png",
+      "assets/models/Folder3/dispenser5.png",
+      "assets/models/Folder3/dispenser9.png"
+    ],
+    "vertices": ""
   },
   {
-    "id": "sample-kiosk",
+    "id": "Folder4",
     "title": "Model Title",
     "category": "Props",
     "polyCount": "10k",
@@ -73,10 +113,151 @@
       "FBX"
     ],
     "marketplaceLink": "https://www.cgtrader.com/",
-    "modelUrl": "assets/models/sample-kiosk/model.glb",
-    "thumbnail": "assets/models/sample-kiosk/thumbnail.jpg",
+    "thumbnail": "assets/models/Folder4/cosmetics10.jpg",
     "images": [
-      "assets/models/sample-kiosk/extra1.jpg"
-    ]
+      "assets/models/Folder4/cosmetics10.jpg",
+      "assets/models/Folder4/cosmetics10.png",
+      "assets/models/Folder4/cosmetics14.png",
+      "assets/models/Folder4/cosmetics16.jpg",
+      "assets/models/Folder4/cosmetics16.png",
+      "assets/models/Folder4/cosmetics19.png",
+      "assets/models/Folder4/cosmetics21.png",
+      "assets/models/Folder4/cosmetics22.png",
+      "assets/models/Folder4/cosmetics23.png"
+    ],
+    "vertices": ""
+  },
+  {
+    "id": "Folder5",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "thumbnail": "assets/models/Folder5/cosmetics1.png",
+    "images": [
+      "assets/models/Folder5/cosmetics1.png",
+      "assets/models/Folder5/cosmetics4.png",
+      "assets/models/Folder5/cosmetics7.png",
+      "assets/models/Folder5/cosmetics8.png"
+    ],
+    "vertices": ""
+  },
+  {
+    "id": "Folder6",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "thumbnail": "assets/models/Folder6/kit10.png",
+    "images": [
+      "assets/models/Folder6/kit10.png",
+      "assets/models/Folder6/kit11.png",
+      "assets/models/Folder6/kit12.png",
+      "assets/models/Folder6/kit13.png",
+      "assets/models/Folder6/kit14.png",
+      "assets/models/Folder6/kit15.png",
+      "assets/models/Folder6/kit16.png",
+      "assets/models/Folder6/kit17.png",
+      "assets/models/Folder6/kit18.png",
+      "assets/models/Folder6/kit19.png",
+      "assets/models/Folder6/kit20.png",
+      "assets/models/Folder6/kit4.png"
+    ],
+    "vertices": ""
+  },
+  {
+    "id": "Folder7",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "thumbnail": "assets/models/Folder7/tube10.jpg",
+    "images": [
+      "assets/models/Folder7/tube10.jpg",
+      "assets/models/Folder7/tube11.jpg",
+      "assets/models/Folder7/tube13.jpg",
+      "assets/models/Folder7/tube15.jpg",
+      "assets/models/Folder7/tube19.png",
+      "assets/models/Folder7/tube2.jpg",
+      "assets/models/Folder7/tube3.jpg",
+      "assets/models/Folder7/tube4.jpg",
+      "assets/models/Folder7/tube5.jpg",
+      "assets/models/Folder7/tube6.jpg",
+      "assets/models/Folder7/tube7.jpg",
+      "assets/models/Folder7/tube8.jpg"
+    ],
+    "vertices": ""
+  },
+  {
+    "id": "Folder8",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "thumbnail": "assets/models/Folder8/box10.png",
+    "images": [
+      "assets/models/Folder8/box10.png",
+      "assets/models/Folder8/box11.png",
+      "assets/models/Folder8/box12.png",
+      "assets/models/Folder8/box13.png",
+      "assets/models/Folder8/box14.png",
+      "assets/models/Folder8/box4.png",
+      "assets/models/Folder8/box5.png",
+      "assets/models/Folder8/box6.png",
+      "assets/models/Folder8/box7.png",
+      "assets/models/Folder8/box8.png",
+      "assets/models/Folder8/box9.png"
+    ],
+    "vertices": ""
+  },
+  {
+    "id": "Folder9",
+    "title": "Model Title",
+    "category": "Props",
+    "polyCount": "10k",
+    "textureSize": "4k",
+    "description": "A description of the model.",
+    "formats": [
+      "GLB",
+      "FBX"
+    ],
+    "marketplaceLink": "https://www.cgtrader.com/",
+    "thumbnail": "assets/models/Folder9/Pump.png",
+    "images": [
+      "assets/models/Folder9/Pump.png",
+      "assets/models/Folder9/Pump1.png",
+      "assets/models/Folder9/Pump2.png",
+      "assets/models/Folder9/Pump3.png",
+      "assets/models/Folder9/Pump4.png",
+      "assets/models/Folder9/Pump5.png",
+      "assets/models/Folder9/Pump6.png",
+      "assets/models/Folder9/Pump7.png",
+      "assets/models/Folder9/Untitled.png"
+    ],
+    "vertices": ""
   }
 ]
