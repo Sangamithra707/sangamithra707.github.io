@@ -166,7 +166,7 @@
                     </div>
                     <div class="spec-item">
                         <span class="spec-label">Vertices</span>
-                        <span class="spec-value">26.1k</span>
+                        <span class="spec-value" id="d-vertices">26.1k</span>
                     </div>
                     <!-- <div class="spec-item">
                         <span class="spec-label">Format</span>
@@ -210,9 +210,7 @@
                     document.getElementById('d-desc').innerText = data.description || 'No description available.';
                     document.title = `${data.title} | 3D Portfolio`;
 
-                    // Update specs
-                    const specs = document.querySelectorAll('.spec-value');
-                    if (specs[3]) specs[3].innerText = (data.formats || []).join(', ');
+                    document.getElementById('d-vertices').innerText = data.vertices || '-';
 
                     // Update Link
                     const linkBtn = document.getElementById('marketplace-link');

@@ -1,263 +1,111 @@
 [
   {
     "id": "Folder1",
-    "title": "Cosmetic Serum Glass Dropper Bottle Realistic Model",
-    "category": "Props",
-    "polyCount": "17916",
-    "vertices": "17916",
-    "textureSize": "2k",
-    "description": "High-quality, realistic cosmetic serum dropper bottle 3D model designed for professional product visualization, cosmetic branding, packaging mockups, and advertising renders. The model is based on real-world cosmetic packaging references and features accurate proportions, realistic glass thickness, and clean construction. All main components are modeled as separate objects, making the asset easy to customize, texture, or animate. Geometry is optimized for rendering while preserving fine details, suitable for both close-up product shots and full cosmetic scene setups.",
-    "formats": [
-      "GLB",
-      "FBX",
-      "OBJ",
-      "Blend"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/cosmetic-serum-glass-dropper-bottle-realistic-model",
-    "thumbnail": "assets/models/Folder1/thumbnail.jpg",
+    "title": "Premium Cosmetic Tube Packaging Skincare and Sunscreen Mockup",
+    "category": "Cosmetics",
+    "description": "This is a professionally modeled cosmetic tube packaging asset, suitable for skincare, sunscreen, cream, gel, or dermatology-style products. The form is clean and modern, designed to match real-world cosmetic packaging proportions used by premium brands.\n\nThe model features a realistic tube body with subtle curvature, a detailed top crimp, and a solid cap design that reads well in both close-up hero renders and e-commerce visuals. Surface shading is optimized for studio lighting, making it ideal for product visualization, branding mockups, and advertising renders.\n\nTopology is clean and optimized, making the asset suitable not only for high-quality renders but also for real-time use if needed. The neutral design material variations.\n\nTechnical details:\nVertices: 14,844\nPolygons: 14,908\n\nClean, non-destructive topology\nIdeal for cosmetic ads, listings, brand presentations, and portfolio use\nThis asset is designed to save time for designers, advertisers, and studios who need a reliable, realistic cosmetic tube without rebuilding from scratch.",
+    "vertices": "14844",
+    "polyCount": "14908",
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/premium-cosmetic-tube-packaging-skincare-and-sunscreen-mockup",
+    "thumbnail": "assets/models/Folder1/tube4.jpg",
     "images": [
-      "assets/models/Folder1/serum10.jpg",
-      "assets/models/Folder1/serum11.jpg",
-      "assets/models/Folder1/serum7.jpg",
-      "assets/models/Folder1/thumbnail.jpg"
+      "assets/models/Folder1/tube4.jpg",
+      "assets/models/Folder1/tube1.jpg",
+      "assets/models/Folder1/tube3.jpg",
+      "assets/models/Folder1/tube8.jpg",
+      "assets/models/Folder1/tube11.jpg",
+      "assets/models/Folder1/tube12.jpg"
+    ],
+    "textureSize": "4k",
+    "formats": [
+      "GLB"
     ]
   },
   {
     "id": "Folder10",
-    "title": "Model Title",
-    "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": [
-      "GLB",
-      "FBX"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "thumbnail": "assets/models/Folder10/Pump.png",
+    "title": "Premium Amber Glass Serum Bottle with Dropper Luxury Cosmetic",
+    "category": "Cosmetics",
+    "description": "A high-quality 3D model of a luxury cosmetic serum bottle featuring an amber glass body and a precision dropper cap. Designed for premium skincare and pharmaceutical visualizations, this model is ideal for product renders, advertisements, packaging mockups, and e-commerce presentations.\n\nThe amber glass aesthetic communicates protection for light-sensitive formulations such as vitamin C serums, facial oils, and active concentrates. Clean geometry, realistic proportions, and a separated dropper assembly make it suitable for close-up hero shots and animation workflows.\n\nTechnical Details:\nVertices: 19,204\nPolygons: 19,200\n\nPerfect for cosmetic branding, product visualization, and high-end marketing scenes.",
+    "vertices": "19204",
+    "polyCount": "19200",
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/premium-amber-glass-serum-bottle-with-dropper-luxury-cosmetic",
+    "thumbnail": "assets/models/Folder10/serum1.jpg",
     "images": [
-      "assets/models/Folder10/Pump.png",
-      "assets/models/Folder10/Pump1.png",
-      "assets/models/Folder10/Pump10.png",
-      "assets/models/Folder10/Pump2.png",
-      "assets/models/Folder10/Pump3.png",
-      "assets/models/Folder10/Pump4.png",
-      "assets/models/Folder10/Pump5.png",
-      "assets/models/Folder10/Pump6.png",
-      "assets/models/Folder10/Pump7.png",
-      "assets/models/Folder10/Pump8.png",
-      "assets/models/Folder10/Pump9.png",
-      "assets/models/Folder10/Untitled.png"
+      "assets/models/Folder10/serum1.jpg",
+      "assets/models/Folder10/serum4.jpg",
+      "assets/models/Folder10/serum6.jpg",
+      "assets/models/Folder10/serum7.jpg",
+      "assets/models/Folder10/serum15.jpg",
+      "assets/models/Folder10/serum8.jpg"
     ],
-    "vertices": ""
+    "textureSize": "4k",
+    "formats": [
+      "GLB"
+    ]
   },
   {
     "id": "Folder2",
-    "title": "Cosmetic Cream Jar with Screw Lid Realistic Glass Container ",
-    "category": "Props",
-    "polyCount": "10k",
-    "vertices": "10k",
-    "textureSize": "4k",
-    "description": "High-quality realistic cosmetic cream jar 3D model designed for product visualization, branding mockups, and e-commerce renders. The model features accurate proportions, clean topology, and realistic materials suitable for close-up renders. It includes detailed screw threads, subtle edge bevels, and a clean label area, making it ideal for skincare, beauty, and cosmetic product presentations. All materials are neutral and ready for customization, allowing easy re-branding for creams, balms, gels, or masks. Optimized for both still renders and animations, this asset works well in marketing visuals, packaging design previews, and motion graphics.",
-    "formats": [
-      "GLB",
-      "FBX",
-      "OBJ",
-      "Blend"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/cosmetic-cream-jar-with-screw-lid-realistic-glass-container",
-    "thumbnail": "assets/models/Folder2/thumbnail.jpg",
+    "title": "Realistic Flexible Refill Spout Pouch Neutral Plastic Packaging",
+    "category": "Cosmetics",
+    "description": "A high-quality, realistic flexible refill pouch with corner spout, created for cosmetic, personal care, household, and liquid product packaging visualizations.\n\nThe model features believable soft-plastic deformation, natural wrinkle flow, and a filled-volume silhouette that reads correctly from front, angle, and side views. Surface detailing is intentionally balanced to avoid over-sculpting, ensuring realistic behavior under different lighting conditions.\n\nThe pouch uses a neutral plastic material, making it ideal for easy re-branding and label customization. Clean topology and stable shading make it suitable for both close-up and mid-distance renders in professional product visualization workflows.\n\nTechnical details:\nVertices: 19,582\nPolygons: 19,612\n\nIdeal for:\ncosmetics refill packs, shampoo & conditioner pouches, liquid soap, detergents, food sauces, eco-refill packaging, and advertising visuals.\n\nKey Features\nRealistic flexible plastic deformation\nNeutral, brand-ready material\nClean topology and smooth shading\nAccurate spout and cap construction\nSuitable for product renders and mockups",
+    "vertices": "19582",
+    "polyCount": "19612",
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/realistic-flexible-refill-spout-pouch-neutral-plastic-packaging",
+    "thumbnail": "assets/models/Folder2/SAUCET3.png",
     "images": [
-      "assets/models/Folder2/jar10.jpg",
-      "assets/models/Folder2/jar17.jpg",
-      "assets/models/Folder2/jar2.jpg",
-      "assets/models/Folder2/jar3.jpg",
-      "assets/models/Folder2/jar6.jpg",
-      "assets/models/Folder2/thumbnail.jpg"
+      "assets/models/Folder2/SAUCET3.png",
+      "assets/models/Folder2/SAUCET6.png",
+      "assets/models/Folder2/SAUCET7.png",
+      "assets/models/Folder2/SAUCET9.png",
+      "assets/models/Folder2/SAUCET10.png",
+      "assets/models/Folder2/SAUCET11.png"
+    ],
+    "textureSize": "4k",
+    "formats": [
+      "GLB"
     ]
   },
   {
     "id": "Folder3",
-    "title": "Model Title",
-    "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": [
-      "GLB",
-      "FBX"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "thumbnail": "assets/models/Folder3/dispenser1.png",
+    "title": "Realistic Cosmetic Bottle Set 2 Sizes Neutral Plastic Packaging",
+    "category": "Cosmetics",
+    "description": "A high-quality realistic cosmetic bottle set featuring two matching bottle sizes, designed for product visualization, branding mockups, and e-commerce renders.",
+    "vertices": "30308",
+    "polyCount": "30300",
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/realistic-cosmetic-bottle-set-2-sizes-neutral-plastic-packaging",
+    "thumbnail": "assets/models/Folder3/BOTTLE.png",
     "images": [
-      "assets/models/Folder3/dispenser1.png",
-      "assets/models/Folder3/dispenser11.png",
-      "assets/models/Folder3/dispenser13.png",
-      "assets/models/Folder3/dispenser15.png",
-      "assets/models/Folder3/dispenser16.png",
-      "assets/models/Folder3/dispenser3.png",
-      "assets/models/Folder3/dispenser5.png",
-      "assets/models/Folder3/dispenser9.png"
+      "assets/models/Folder3/BOTTLE1.png",
+      "assets/models/Folder3/BOTTLE5.png",
+      "assets/models/Folder3/BOTTLE10.png",
+      "assets/models/Folder3/BOTTLE11.png",
+      "assets/models/Folder3/BOTTLE.png"
     ],
-    "vertices": ""
+    "textureSize": "4k",
+    "formats": [
+      "GLB"
+    ]
   },
   {
     "id": "Folder4",
-    "title": "Model Title",
-    "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": [
-      "GLB",
-      "FBX"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "thumbnail": "assets/models/Folder4/cosmetics10.jpg",
+    "title": "Realistic Glass Cosmetic Cream Jar with Plastic Lid",
+    "category": "Cosmetics",
+    "description": "A high-quality realistic glass cosmetic cream jar designed for product visualization, branding mockups, and e-commerce renders. The model features accurate proportions, clean topology, and a neutral design suitable for a wide range of skincare and cosmetic products.\n\nThe jar includes realistic glass thickness, detailed screw threads, and a minimal plastic lid, making it ideal for creams, balms, gels, masks, and luxury cosmetic presentations. Materials are kept neutral for easy customization and re-branding.\n\nOptimized for close-up renders and professional workflows, this asset works well for advertising visuals, packaging previews, and digital product showcases.\n\nTechnical details\nVertices: 11,044\nPolygons: 11,040\n\nThis model is suitable for both realistic studio renders and real-time applications where clean geometry and visual clarity are required.",
+    "vertices": "11044",
+    "polyCount": "11040",
+    "marketplaceLink": "https://www.cgtrader.com/3d-models/character/other/realistic-glass-cosmetic-cream-jar-with-plastic-lid",
+    "thumbnail": "assets/models/Folder4/jar1.jpg",
     "images": [
-      "assets/models/Folder4/cosmetics10.jpg",
-      "assets/models/Folder4/cosmetics10.png",
-      "assets/models/Folder4/cosmetics14.png",
-      "assets/models/Folder4/cosmetics16.jpg",
-      "assets/models/Folder4/cosmetics16.png",
-      "assets/models/Folder4/cosmetics19.png",
-      "assets/models/Folder4/cosmetics21.png",
-      "assets/models/Folder4/cosmetics22.png",
-      "assets/models/Folder4/cosmetics23.png"
+      "assets/models/Folder4/jar1.jpg",
+      "assets/models/Folder4/jar8.jpg",
+      "assets/models/Folder4/jar10.jpg",
+      "assets/models/Folder4/jar8.jpg",
+      "assets/models/Folder4/jar5.jpg",
+      "assets/models/Folder4/jar2.jpg"
     ],
-    "vertices": ""
-  },
-  {
-    "id": "Folder5",
-    "title": "Model Title",
-    "category": "Props",
-    "polyCount": "10k",
     "textureSize": "4k",
-    "description": "A description of the model.",
     "formats": [
-      "GLB",
-      "FBX"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "thumbnail": "assets/models/Folder5/cosmetics1.png",
-    "images": [
-      "assets/models/Folder5/cosmetics1.png",
-      "assets/models/Folder5/cosmetics4.png",
-      "assets/models/Folder5/cosmetics7.png",
-      "assets/models/Folder5/cosmetics8.png"
-    ],
-    "vertices": ""
-  },
-  {
-    "id": "Folder6",
-    "title": "Model Title",
-    "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": [
-      "GLB",
-      "FBX"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "thumbnail": "assets/models/Folder6/kit10.png",
-    "images": [
-      "assets/models/Folder6/kit10.png",
-      "assets/models/Folder6/kit11.png",
-      "assets/models/Folder6/kit12.png",
-      "assets/models/Folder6/kit13.png",
-      "assets/models/Folder6/kit14.png",
-      "assets/models/Folder6/kit15.png",
-      "assets/models/Folder6/kit16.png",
-      "assets/models/Folder6/kit17.png",
-      "assets/models/Folder6/kit18.png",
-      "assets/models/Folder6/kit19.png",
-      "assets/models/Folder6/kit20.png",
-      "assets/models/Folder6/kit4.png"
-    ],
-    "vertices": ""
-  },
-  {
-    "id": "Folder7",
-    "title": "Model Title",
-    "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": [
-      "GLB",
-      "FBX"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "thumbnail": "assets/models/Folder7/tube10.jpg",
-    "images": [
-      "assets/models/Folder7/tube10.jpg",
-      "assets/models/Folder7/tube11.jpg",
-      "assets/models/Folder7/tube13.jpg",
-      "assets/models/Folder7/tube15.jpg",
-      "assets/models/Folder7/tube19.png",
-      "assets/models/Folder7/tube2.jpg",
-      "assets/models/Folder7/tube3.jpg",
-      "assets/models/Folder7/tube4.jpg",
-      "assets/models/Folder7/tube5.jpg",
-      "assets/models/Folder7/tube6.jpg",
-      "assets/models/Folder7/tube7.jpg",
-      "assets/models/Folder7/tube8.jpg"
-    ],
-    "vertices": ""
-  },
-  {
-    "id": "Folder8",
-    "title": "Model Title",
-    "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": [
-      "GLB",
-      "FBX"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "thumbnail": "assets/models/Folder8/box10.png",
-    "images": [
-      "assets/models/Folder8/box10.png",
-      "assets/models/Folder8/box11.png",
-      "assets/models/Folder8/box12.png",
-      "assets/models/Folder8/box13.png",
-      "assets/models/Folder8/box14.png",
-      "assets/models/Folder8/box4.png",
-      "assets/models/Folder8/box5.png",
-      "assets/models/Folder8/box6.png",
-      "assets/models/Folder8/box7.png",
-      "assets/models/Folder8/box8.png",
-      "assets/models/Folder8/box9.png"
-    ],
-    "vertices": ""
-  },
-  {
-    "id": "Folder9",
-    "title": "Model Title",
-    "category": "Props",
-    "polyCount": "10k",
-    "textureSize": "4k",
-    "description": "A description of the model.",
-    "formats": [
-      "GLB",
-      "FBX"
-    ],
-    "marketplaceLink": "https://www.cgtrader.com/",
-    "thumbnail": "assets/models/Folder9/Pump.png",
-    "images": [
-      "assets/models/Folder9/Pump.png",
-      "assets/models/Folder9/Pump1.png",
-      "assets/models/Folder9/Pump2.png",
-      "assets/models/Folder9/Pump3.png",
-      "assets/models/Folder9/Pump4.png",
-      "assets/models/Folder9/Pump5.png",
-      "assets/models/Folder9/Pump6.png",
-      "assets/models/Folder9/Pump7.png",
-      "assets/models/Folder9/Untitled.png"
-    ],
-    "vertices": ""
+      "GLB"
+    ]
   }
 ]
