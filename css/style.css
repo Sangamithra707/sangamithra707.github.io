@@ -1,4 +1,17 @@
 /* Design System & Variables */
+@font-face {
+    font-family: 'Momo Signature';
+    src: url('../Font/MomoSignature-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'SUSE';
+    src: url('../Font/SUSE/SUSE-VariableFont_wght.ttf') format('truetype-variations');
+    font-weight: 100 900;
+}
+
 :root {
     /* Colors */
     --bg-app: #0f0f11;
@@ -24,7 +37,7 @@
     --space-2xl: 64px;
 
     /* Typography */
-    --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    --font-sans: 'SUSE', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
 
     /* Radius */
     --radius-sm: 4px;
@@ -118,6 +131,7 @@ button {
 }
 
 .hero h1 {
+    font-family: 'Lobster', cursive;
     font-size: 3rem;
     font-weight: 800;
     letter-spacing: -0.02em;
@@ -161,20 +175,53 @@ button {
 
 .model-card {
     background-color: var(--bg-surface);
-    border: 1px solid var(--border-subtle);
-    border-radius: var(--radius-lg);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    border-radius: 0;
     overflow: hidden;
-    transition: transform var(--transition-fast), box-shadow var(--transition-fast), border-color var(--transition-fast);
+    transition: transform var(--transition-fast), box-shadow var(--transition-fast);
     display: flex;
     flex-direction: column;
     position: relative;
-    /* Contain absolute link */
+    /* Tech border variables */
+    --corner-color: var(--text-primary);
+    --corner-size: 8px;
+    --corner-width: 2px;
+}
+
+.model-card::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    pointer-events: none;
+    z-index: 50;
+    background:
+        /* Top Left */
+        linear-gradient(to right, var(--corner-color) var(--corner-width), transparent 0) 0 0,
+        linear-gradient(to bottom, var(--corner-color) var(--corner-width), transparent 0) 0 0,
+        /* Top Right */
+        linear-gradient(to left, var(--corner-color) var(--corner-width), transparent 0) 100% 0,
+        linear-gradient(to bottom, var(--corner-color) var(--corner-width), transparent 0) 100% 0,
+        /* Bottom Left */
+        linear-gradient(to right, var(--corner-color) var(--corner-width), transparent 0) 0 100%,
+        linear-gradient(to top, var(--corner-color) var(--corner-width), transparent 0) 0 100%,
+        /* Bottom Right */
+        linear-gradient(to left, var(--corner-color) var(--corner-width), transparent 0) 100% 100%,
+        linear-gradient(to top, var(--corner-color) var(--corner-width), transparent 0) 100% 100%;
+
+    background-repeat: no-repeat;
+    background-size: var(--corner-size) var(--corner-size);
+    transition: all 0.3s ease;
+    opacity: 0.7;
 }
 
 .model-card:hover {
     transform: translateY(-4px);
     box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.5);
-    border-color: var(--bg-highlight);
+    --corner-color: var(--accent-primary);
+}
+
+.model-card:hover::after {
+    opacity: 1;
 }
 
 .card-viewer-container {
@@ -242,4 +289,15 @@ button {
         opacity: 1;
         transform: translateY(0);
     }
+}
+
+/* Contact Section */
+#contact h2 {
+    font-family: "Momo Signature", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 3rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    color: var(--text-primary);
 }

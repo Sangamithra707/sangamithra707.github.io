@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Asset Details | Digital Portfolio</title>
+    <link rel="icon" type="image/png" href="assets/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -23,13 +24,42 @@
 
         .viewer-stage {
             background-color: var(--bg-surface);
-            border-radius: var(--radius-lg);
-            border: 1px solid var(--border-subtle);
+            border-radius: 0;
+            border: 1px solid rgba(255, 255, 255, 0.05);
             overflow: hidden;
             position: relative;
             display: flex;
             align-items: center;
             justify-content: center;
+            /* Tech border variables */
+            --corner-color: var(--text-primary);
+            --corner-size: 16px;
+            --corner-width: 2px;
+        }
+
+        .viewer-stage::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 10;
+            background:
+                /* Top Left */
+                linear-gradient(to right, var(--corner-color) var(--corner-width), transparent 0) 0 0,
+                linear-gradient(to bottom, var(--corner-color) var(--corner-width), transparent 0) 0 0,
+                /* Top Right */
+                linear-gradient(to left, var(--corner-color) var(--corner-width), transparent 0) 100% 0,
+                linear-gradient(to bottom, var(--corner-color) var(--corner-width), transparent 0) 100% 0,
+                /* Bottom Left */
+                linear-gradient(to right, var(--corner-color) var(--corner-width), transparent 0) 0 100%,
+                linear-gradient(to top, var(--corner-color) var(--corner-width), transparent 0) 0 100%,
+                /* Bottom Right */
+                linear-gradient(to left, var(--corner-color) var(--corner-width), transparent 0) 100% 100%,
+                linear-gradient(to top, var(--corner-color) var(--corner-width), transparent 0) 100% 100%;
+
+            background-repeat: no-repeat;
+            background-size: var(--corner-size) var(--corner-size);
+            opacity: 1;
         }
 
         #main-viewer {
@@ -64,7 +94,33 @@
             margin: var(--space-xl) 0;
             background: var(--bg-surface);
             padding: var(--space-md);
-            border-radius: var(--radius-md);
+            border-radius: 0;
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            position: relative;
+            /* Tech border variables */
+            --corner-color: var(--text-secondary);
+            --corner-size: 8px;
+            --corner-width: 1px;
+        }
+
+        .specs-grid::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            pointer-events: none;
+            z-index: 20;
+            background:
+                linear-gradient(to right, var(--corner-color) var(--corner-width), transparent 0) 0 0,
+                linear-gradient(to bottom, var(--corner-color) var(--corner-width), transparent 0) 0 0,
+                linear-gradient(to left, var(--corner-color) var(--corner-width), transparent 0) 100% 0,
+                linear-gradient(to bottom, var(--corner-color) var(--corner-width), transparent 0) 100% 0,
+                linear-gradient(to right, var(--corner-color) var(--corner-width), transparent 0) 0 100%,
+                linear-gradient(to top, var(--corner-color) var(--corner-width), transparent 0) 0 100%,
+                linear-gradient(to left, var(--corner-color) var(--corner-width), transparent 0) 100% 100%,
+                linear-gradient(to top, var(--corner-color) var(--corner-width), transparent 0) 100% 100%;
+            background-repeat: no-repeat;
+            background-size: var(--corner-size) var(--corner-size);
+            opacity: 0.5;
         }
 
         .spec-item {
