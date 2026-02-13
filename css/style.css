@@ -123,6 +123,20 @@ button {
     color: var(--text-primary);
 }
 
+@font-face {
+    font-family: 'Fugaz One';
+    src: url('../Font/Fugaz_One/FugazOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Carattere';
+    src: url('../Font/Carattere/Carattere-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 /* Hero Section */
 .hero {
     text-align: center;
@@ -130,13 +144,24 @@ button {
     animation: fadeIn 0.8s ease-out;
 }
 
-.hero h1 {
-    font-family: 'Lobster', cursive;
-    font-size: 3rem;
-    font-weight: 800;
-    letter-spacing: -0.02em;
-    margin-bottom: var(--space-sm);
+.hero-title {
+    font-family: 'Fugaz One', cursive;
+    font-size: 6rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: var(--space-xs);
     color: var(--text-primary);
+    line-height: 1.1;
+}
+
+.hero-subtitle {
+    font-family: 'Carattere', cursive;
+    font-size: 5rem;
+    font-weight: 400;
+    color: var(--text-secondary);
+    margin-top: -10px;
+    margin-bottom: var(--space-lg);
 }
 
 .hero p {
